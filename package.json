@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This package contains a very simple web server that takes one argument for port and then serves index.html in the www directory.",
   "main": "server.js",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  },
   "scripts": {
     "test": "node server.js"
   },
@@ -11,12 +14,9 @@
     "url": "git+https://github.com/comp426-2022-spring/a01-sprocopii.git"
   },
   "author": "Stephan Procopii",
-  "license": "GPL-3.0",
+  "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/comp426-2022-spring/a01-sprocopii/issues"
   },
-  "homepage": "https://github.com/comp426-2022-spring/a01-sprocopii#readme",
-  "dependencies": {
-    "minimist": "^1.2.5"
-  }
+  "homepage": "https://github.com/comp426-2022-spring/a01-sprocopii#readme"
 }
